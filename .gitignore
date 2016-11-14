@@ -1,0 +1,4 @@
+APIkey
+*.csv
+.Rproj.*
+.Rhistory
