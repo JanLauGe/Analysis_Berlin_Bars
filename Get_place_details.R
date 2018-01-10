@@ -18,8 +18,7 @@ PlaceAPI <- function(
   # Hard-coded URLs
   search_url <- 'https://maps.googleapis.com/maps/api/place/textsearch/json'
   search_key <- read_file('APIkey')
-  #'AIzaSyCvgcP-AcFQtW3bdsqEgX1MIpISFcenFuA'
-
+  
   # Call API for place info
   search_info <- httr::GET(
     url = search_url,
